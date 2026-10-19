@@ -284,7 +284,7 @@ Call Transaction Method.
 
 ---
 
-## 11. Conclusion
+## Conclusion
 
 The Call Transaction Method is useful for direct transaction processing and program-controlled error handling.
 
