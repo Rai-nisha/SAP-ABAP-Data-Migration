@@ -20,6 +20,6 @@ Suppose a company needs to create 1,000 material master records in SAP. Instead 
 
 ## BDC Methods
 
-- [Call Transaction Method](./01-BDC/Call Transaction Method/) 
+- [Call Transaction Method](./01-BDC/Call%20Transaction%20Method/) 
 - Session Method
 
