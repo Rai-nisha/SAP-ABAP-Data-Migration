@@ -3,8 +3,8 @@
 The Call Transaction Method is used to upload data into SAP by executing a transaction directly from an ABAP program using the CALL TRANSACTION statement.
 
 ## What is the Call Transaction Method?
-      The **Call Transaction Method** executes an SAP transaction directly from an ABAP program using the `CALL TRANSACTION` statement.
-      The program prepares the BDC data, executes the transaction, and captures the resulting messages.
+The **Call Transaction Method** executes an SAP transaction directly from an ABAP program using the `CALL TRANSACTION` statement.
+The program prepares the BDC data, executes the transaction, and captures the resulting messages.
 
 ### Key characteristics
 - Executes the transaction directly.
@@ -15,7 +15,7 @@ The Call Transaction Method is used to upload data into SAP by executing a trans
 
 ---
 
-## 4. Steps to Implement BDC – Call Transaction
+## Steps to Implement BDC – Call Transaction
 
 ### Step 1: Prepare the Source Data
 
@@ -193,16 +193,14 @@ Replace `YOUR_TCODE` with the actual transaction code and implement the required
 
 ---
 
-## 5. Advantages
-
+## Advantages
 - Executes transactions directly from an ABAP program.
 - Does not require a batch input session.
 - Allows immediate result handling.
 - Supports custom error logging.
 - Suitable for controlled data uploads and automated processing.
 
-## 6. Limitations
-
+## Limitations
 - Depends on the transaction's screen sequence.
 - Requires appropriate error-handling logic.
 - Failed records may need custom retry processing.
@@ -211,7 +209,7 @@ Replace `YOUR_TCODE` with the actual transaction code and implement the required
 
 ---
 
-## 7. When to Use Call Transaction
+## When to Use Call Transaction
 
 Use the Call Transaction Method when:
 
@@ -225,7 +223,7 @@ For suitable business objects, check whether a released BAPI, standard API, or S
 
 ---
 
-## 8. Call Transaction vs. Session Method
+## Call Transaction vs. Session Method
 
 | Feature | Call Transaction | Session Method |
 |---|---|---|
@@ -238,7 +236,7 @@ For suitable business objects, check whether a released BAPI, standard API, or S
 
 ---
 
-## 9. Important Transactions
+## Important Transactions
 
 | Transaction | Purpose |
 |---|---|
@@ -249,7 +247,7 @@ For suitable business objects, check whether a released BAPI, standard API, or S
 
 ---
 
-## 10. Quick Revision
+## Quick Revision
 
 **Q1. What is BDC?**
 
