@@ -3,7 +3,6 @@
 ## 📌 Overview
 
 Data Migration, also known as Data Transfer, is the process of transferring data from a Legacy System (Non-SAP System) to an SAP System.
-
 A Legacy System is a system other than SAP that contains the data to be transferred into SAP.
 
 ## 🔄 Steps of Data Migration
@@ -35,6 +34,9 @@ Legacy System (Non-SAP)
           v
        SAP System
 ```
+
+![Uploading image.png…]()
+
 
 ## 🛠️ Data Migration Techniques
 
