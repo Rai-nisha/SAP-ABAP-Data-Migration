@@ -2,7 +2,7 @@
 
 This section contains my SAP ABAP practice work related to BDC (Batch Data Communication).
 
-## 1. What is BDC?
+## What is BDC?
 
 - BDC (Batch Data Communication) is a data migration technique in SAP ABAP used to transfer large amounts of data into SAP systems by simulating user interactions with SAP transaction screens.
 - BDC processes data by passing values to screen fields and executing the corresponding transaction, similar to how a user enters data manually through SAP GUI.
