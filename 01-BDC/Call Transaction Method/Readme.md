@@ -15,7 +15,7 @@ The program prepares the BDC data, executes the transaction, and captures the re
 
 ---
 
-## Steps to Implement BDC – Call Transaction
+## Steps to Implement BDC – Call Transaction Method
 
 ### Step 1: Prepare the Source Data
 
@@ -209,7 +209,7 @@ Replace `YOUR_TCODE` with the actual transaction code and implement the required
 
 ---
 
-## When to Use Call Transaction
+## When to Use Call Transaction Method
 
 Use the Call Transaction Method when:
 
