@@ -17,7 +17,9 @@ The data migration process consists of four main steps:
 ### Data Migration Process
 
 ```text
+```text
 Legacy System (Non-SAP)
+```
           |
           v
    Data Extraction
@@ -32,11 +34,13 @@ Legacy System (Non-SAP)
    Data Verification
           |
           v
+```text
        SAP System
+```
 ```
 ```text
 
-         Legacy System (Non-SAP)   -->   Data Extraction  -->  Data Conversion  -->  Data Import  -->  Data Verification   -->   SAP System
+Legacy System (Non-SAP)   -->   Data Extraction  -->  Data Conversion  -->  Data Import  -->  Data Verification   -->   SAP System
 
 ```
 
