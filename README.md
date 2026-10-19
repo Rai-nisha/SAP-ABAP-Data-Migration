@@ -34,8 +34,12 @@ Legacy System (Non-SAP)
           v
        SAP System
 ```
+```text
 
-![Uploading image.png…]()
+         Legacy System (Non-SAP)   -->   Data Extraction  -->  Data Conversion  -->  Data Import  -->  Data Verification   -->   SAP System
+
+```
+
 
 
 ## 🛠️ Data Migration Techniques
