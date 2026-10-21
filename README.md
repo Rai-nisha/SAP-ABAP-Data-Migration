@@ -77,6 +77,21 @@ Topics covered:
 
 **Example BAPI:** `BAPI_MATERIAL_SAVEDATA`
 
+
+### Choosing the Right Technique
+
+| Technique | When to Use |
+|---|---|
+| **BDC** | When a suitable transaction screen flow is available and no better-supported interface meets the requirement. |
+| **BAPI / API** | When a suitable business interface supports the required operation. |
+| **LSMW** | When you need to organize a data migration process using an available method, such as batch-input recording or BAPI, depending on the object and system. |
+
+### Key Takeaway
+
+**Choose the migration technique based on the business requirement, available SAP interfaces, data volume, error-handling needs, and system compatibility.**
+
+
+
 ## 📂 Repository Structure
 
 ```text
