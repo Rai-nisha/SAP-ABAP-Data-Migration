@@ -15,6 +15,34 @@ This section contains my SAP ABAP practice work related to BDC (Batch Data Commu
 - To create or update business records through standard SAP transactions.
 - To reduce manual data-entry effort.
 
+
+## When to Use BDC?
+Use BDC (Batch Data Communication) when you need to migrate multiple records into SAP through an existing transaction and a suitable BDC-compatible screen flow is available.
+
+### Common Use Cases
+- **Mass Data Creation:** Creating multiple Material Master records using transaction `MM01`.
+- **Data Modification:** Changing existing records through SAP transaction screens.
+- **Legacy Data Migration:** Uploading data from legacy systems into SAP using an ABAP program.
+- **Process Automation:** Automating repetitive data-entry tasks.
+- **Limited Interface Availability:** Migrating data when a suitable BAPI or other supported interface is unavailable or impractical.
+
+## When to Avoid BDC?
+- Consider using a suitable BAPI, released API, or another supported SAP interface when it meets the business requirement.
+- BDC depends on SAP transaction screens, so changes to screen layouts or navigation can affect the program.
+
+### Choosing the Right Technique
+
+| Technique | When to Use |
+|---|---|
+| **BDC** | When a suitable transaction screen flow is available and no better-supported interface meets the requirement. |
+| **BAPI / API** | When a suitable business interface supports the required operation. |
+| **LSMW** | When you need to organize a data migration process using an available method, such as batch-input recording or BAPI, depending on the object and system. |
+
+### Key Takeaway
+
+**Choose the migration technique based on the business requirement, available SAP interfaces, data volume, error-handling needs, and system compatibility.**
+
+
 ### Example
 Suppose a company needs to create 1,000 material master records in SAP. Instead of entering each record manually through transaction MM01, an ABAP program can read the data from a file and process it using BDC.
 
